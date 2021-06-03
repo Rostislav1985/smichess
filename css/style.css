@@ -54,6 +54,58 @@ nav {
   height: 150px;
   background-color: rgba(53, 26, 26, 0.7);
   z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subheader_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.subheader_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subheader_left_text {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.subheader_middle_text {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.subheader_right_phone {
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 20px;
+  font-weight: 500;
 }
 
 .aboutchess {
